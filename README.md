@@ -3,17 +3,6 @@
 
 <div align="center">
   <br>
-  <img src="https://img.shields.io/github/repo-size/Avinash905/HealthBooker?style=for-the-badge" />
-  <img src="https://img.shields.io/github/issues/Avinash905/HealthBooker?style=for-the-badge" />
-    <img src="https://img.shields.io/github/issues-closed-raw/Avinash905/HealthBooker?style=for-the-badge" />
-    <img src="https://img.shields.io/github/last-commit/Avinash905/HealthBooker?style=for-the-badge" />
-    <img src="https://img.shields.io/github/issues-pr/Avinash905/HealthBooker?style=for-the-badge" />
-    <img src="https://img.shields.io/github/issues-pr-closed-raw/Avinash905/HealthBooker?style=for-the-badge" />
-    <img src="https://img.shields.io/github/forks/Avinash905/HealthBooker?style=for-the-badge" />
-    <img src="https://img.shields.io/github/stars/Avinash905/HealthBooker?style=for-the-badge" />
-    <img src="https://img.shields.io/github/contributors-anon/Avinash905/HealthBooker?style=for-the-badge" />
-  </div>
-  <br>
 
 <h3>📝 Description :</h3> 
 Welcome to our platform! Our website offers a seamless experience for users and kirtankars alike. Sign up or log in to unlock a range of features. Easily browse through a list of available kirtankars, manage your profile, and submit queries effortlessly. Stay updated with notifications and enjoy secure access to your information. Aspiring kirtankars can apply through our user-friendly system. Book kirtans with your preferred kirtankars and track their status. Admin features ensure smooth operations, including approval of kirtankar applications and user management. Rest assured, all data is stored securely. Join us to experience a new era of convenient and efficient interactions.
@@ -51,6 +40,7 @@ Welcome to our platform! Our website offers a seamless experience for users and 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/akshaychouke)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/akshaychouke)
+
 </div>
 
 <br>
@@ -126,69 +116,24 @@ npm start
 
 ### Home page
 
-<img src="./client/src/images/full_pic.png" alt='home'/>
-
-### Sign up page
-
-<img src="./client/src/images/signup.png" alt='signup'/>
-
-### Sign in page
-
-<img src="./client/src/images/signin.png" alt='signin'/>
+<img src="./src/images/home.png" alt='home'/>
 
 ### Profile page
 
-<img src="./client/src/images/profile.png" alt='profile'/>
+<img src="./src/images/profile.png" alt='profile'/>
 
 ### All Kirtankars page
 
-<img src="./client/src/images/kirtankars.png" alt='kirtankars'/>
+<img src="./src/images/kirtankars.png" alt='kirtankars'/>
 
 ### Apply for kirtankar page
 
-<img src="./client/src/images/docapply.png" alt='applyfordoctor'/>
-
-### Admin all users dashboard
-
-<img src="./client/src/images/users.png" alt='users'/>
+<img src="./src/images/kirtankarapply.png" alt='kirtankarapply'/>
 
 ### Admin all applications page
 
-<img src="./client/src/images/applications.png" alt='applications'/>
+<img src="./src/images/applications.png" alt='applications'/>
 
-### Book Appointment page
-
-<img src="./client/src/images/bookappointment.png" alt='bookappointment'/>
-
-### Users all appointments page
-
-<img src="./client/src/images/userappointments.png" alt='appointments'/>
-
-### Kirtankars all appointments page
-
-<img src="./client/src/images/doctorappointments.png" alt='appointments'/>
-
-### Notifications page
-
-<img src="./client/src/images/notifications.png" alt='notifications'/>
-
----
-
-<br/>
-
-### 🛡️ License
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-
-Terms and conditions for use, reproduction and distribution are under the [MIT License](https://opensource.org/license/mit/).
-
-<br/>
-
----
-
-<h3 align="center"> Give it a 🌟 if you 🧡 this repository </h3>
-
----
 
 <p align="right"><a href="#top">Back to Top</a></p>
 
