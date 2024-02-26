@@ -37,7 +37,7 @@ const Notifications = () => {
           <h2 className="page-heading">Your Notifications</h2>
 
           {notifications.length > 0 ? (
-            <div className="notifications">
+            <div className="user-container">
               <table>
                 <thead>
                   <tr>

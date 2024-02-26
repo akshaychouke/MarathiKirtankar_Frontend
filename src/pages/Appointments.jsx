@@ -71,7 +71,7 @@ const Appointments = () => {
           <h2 className="page-heading">Your Kirtans</h2>
 
           {appointments.length > 0 ? (
-            <div className="appointments">
+            <div className="user-container">
               <table>
                 <thead>
                   <tr>
