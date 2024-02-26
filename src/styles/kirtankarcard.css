@@ -33,3 +33,14 @@
 .card p {
   width: 100%;
 }
+
+@media (max-width: 500px) {
+  .card {
+    width: 100vw;
+    text-align: center;
+  }
+  .card-img img {
+    width: 100px;
+    height: 100px;
+  }
+}
