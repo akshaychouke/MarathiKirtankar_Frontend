@@ -1,7 +1,10 @@
 @import url(app.css);
 
 footer {
-  background-color: var(--light-text-color);
+  /* background-color: var(--light-text-color); */
+  background-color: var(--light-blue);
+  color: var(--light-text-color);
+  box-shadow: 0 0 20px 0 rgba(144, 174, 205, 0.339);
 }
 
 .footer {
@@ -15,13 +18,15 @@ footer {
 }
 
 .footer h3 {
-  color: var(--light-blue);
+  /* color: var(--light-blue); */
+  color: var(--light-text-color);
   margin-bottom: 1rem;
   font-size: 1.2rem;
 }
 
 .footer a {
-  color: var(--light-blue);
+  /* color: var(--light-blue); */
+  color: var(--light-text-color);
 }
 
 .footer-links ul {
@@ -54,11 +59,11 @@ footer {
   font-size: 1.3rem;
 }
 
-.facebook {
+.facebook:hover {
   background-color: #3b5998;
 }
 
-.instagram {
+.instagram:hover {
   background: linear-gradient(
     180deg,
     rgba(64, 93, 230, 1) 0%,
@@ -69,7 +74,7 @@ footer {
   );
 }
 
-.youtube {
+.youtube:hover {
   background-color: #ff0000;
 }
 

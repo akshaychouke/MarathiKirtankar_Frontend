@@ -6,7 +6,7 @@
   left: 0%;
   width: 100%;
   height: 99vh;
-  /* background-color: rgba(0, 0, 0, 0.322); */
+  background-color: rgba(0, 0, 0, 0.322);
   z-index: 1;
 }
 
@@ -15,23 +15,31 @@
   flex-direction: column;
   align-items: center;
   gap: 2rem;
-  width: 35%;
+  width: 45%;
   padding: 2rem;
   border: 1px solid var(--light-blue);
   border-radius: 10px;
-  color: var(--light-blue);
-  background-color: rgb(30, 55, 90);
+  color: var(--bold-text-color);
+  /* background-color: rgb(30, 55, 90); */
+  background-color: rgb(67, 84, 109);
   position: relative;
 }
 
 .modal__content h2 {
-  color: var(--light-blue);
+  color: var(--bold-text-color);
 }
 
 .modal__content .btn {
   font-size: 0.9rem;
+  background-color: rgba(0, 0, 0, 0.37);
 }
-
+.modal__content .btn:hover {
+  background-color: rgba(0, 0, 0, 0.651);
+  color: white;
+}
+.modal__content .register-container .register-form .form-input {
+  width: 100%;
+}
 .close-btn {
   position: absolute;
   top: 2%;
@@ -62,6 +70,6 @@
 @media (max-width: 500px) {
   .modal__content {
     width: 90%;
-    height: 40vh;
+    height: 50vh;
   }
 }

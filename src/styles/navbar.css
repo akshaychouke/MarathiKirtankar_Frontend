@@ -34,7 +34,7 @@ nav {
 }
 
 .nav-links .btn {
-  color: var(--white);
+  /* color: var(--white); */
   font-size: 0.8rem;
   padding: 0.4rem 0.8rem;
 }
@@ -49,7 +49,7 @@ nav {
 .menu-open,
 .menu-close {
   position: absolute;
-  color: var(--black);
+  color: var(--white);
   cursor: pointer;
 }
 

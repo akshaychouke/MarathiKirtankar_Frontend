@@ -32,21 +32,22 @@ th {
   text-align: center;
   font-weight: 700;
   padding: 0.3rem 1rem;
-  background-color: rgb(219, 223, 246);
-  color: var(--bold-text-color);
+  background-color: rgb(163, 165, 178);
+  color: var(--light-blue);
 }
 
 tr {
   padding-bottom: 10px;
+  background-color: rgb(80, 85, 92);
 }
 
-tr:nth-child(2n + 1) {
+/* tr:nth-child(2n + 1) {
   background-color: rgb(234, 234, 234);
 }
 
 tr:nth-child(2n + 2) {
   background-color: rgb(226, 237, 255);
-}
+} */
 
 td {
   padding: 10px;

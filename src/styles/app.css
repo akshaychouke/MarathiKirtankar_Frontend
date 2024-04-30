@@ -1,12 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;700;900;1000&family=Poppins:wght@300;500;700;900&family=Quicksand:wght@400;500;600;700&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@400;500;700;900&family=Ubuntu:wght@400;500;700&display=swap");
 
-:root {
+/* :root {
   --light-blue: #e9f1fa;
   --dark-blue: #00abe4;
   --darker-blue: #0077ff;
   --white: #fff;
   --bold-text-color: #1e375a;
   --light-text-color: rgba(30, 55, 90, 0.7);
+  --font-family: "Poppins", sans-serif;
+} */
+
+:root {
+  --light-blue: #2E2E38;
+  --dark-blue: #00abe4;
+  --darker-blue: #0077ff;
+  --white: #fff;
+  --bold-text-color: #ffffff;
+  --light-text-color: rgba(223, 223, 223, 0.992);
   --font-family: "Poppins", sans-serif;
 }
 
@@ -69,11 +79,14 @@ p {
 }
 
 .btn {
-  color: var(--white);
-  background-color: var(--dark-blue);
+  /* color: var(--white);
+  background-color: var(--dark-blue); */
+  color: var(--bold-text-color);
+  background-color: var(--light-blue);
+  border: 2px solid var(--bold-text-color);
   font-size: 1rem;
   padding: 0.6rem 0.8rem;
-  border: none;
+  /* border: none; */
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 2px;
@@ -83,7 +96,9 @@ p {
 }
 
 .btn:hover {
-  background-color: var(--darker-blue);
+  /* background-color: var(--darker-blue); */
+  background-color: var(--bold-text-color);
+  color: var(--light-blue);
 }
 
 .disabled {
@@ -108,7 +123,8 @@ p {
 
 .nothing {
   font-size: 3rem;
-  color: rgba(30, 55, 90, 0.3);
+  /* color: rgba(30, 55, 90, 0.3); */
+  color: var(--bold-text-color);
   height: 100%;
 }
 

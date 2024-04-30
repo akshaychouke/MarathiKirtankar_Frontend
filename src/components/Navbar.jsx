@@ -29,7 +29,13 @@ const Navbar = () => {
     <header>
       <nav className={iconActive ? "nav-active" : ""}>
         <h2 className="nav-logo">
-          <NavLink to={"/"}>मराठी कीर्तनकार</NavLink>
+          <NavLink to={"/"}>
+            <img
+              src="https://fontmeme.com/permalink/240430/8186bdbf3ba28a5a32dba62dcbe9e701.png"
+              alt="hindi"
+              border={0}
+            />
+          </NavLink>
         </h2>
         <ul className="nav-links">
           <li>
@@ -65,28 +71,19 @@ const Navbar = () => {
           {!token ? (
             <>
               <li>
-                <NavLink
-                  className="btn"
-                  to={"/login"}
-                >
+                <NavLink className="btn" to={"/login"}>
                   Login
                 </NavLink>
               </li>
               <li>
-                <NavLink
-                  className="btn"
-                  to={"/register"}
-                >
+                <NavLink className="btn" to={"/register"}>
                   Register
                 </NavLink>
               </li>
             </>
           ) : (
             <li>
-              <span
-                className="btn"
-                onClick={logoutFunc}
-              >
+              <span className="btn" onClick={logoutFunc}>
                 Logout
               </span>
             </li>

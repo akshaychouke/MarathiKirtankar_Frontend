@@ -27,9 +27,9 @@ const Footer = () => {
               <li>
                 <HashLink to={"/#contact"}>Contact Us</HashLink>
               </li>
-              <li>
+              {/* <li>
                 <NavLink to={"/profile"}>Profile</NavLink>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className="social">
@@ -66,7 +66,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-bottom">
-          Made by{" "}
+          {/* Made by{" "} */}
           <a
             href="https://www.linkedin.com/in/akshaychouke"
             target="_blank"
@@ -74,7 +74,7 @@ const Footer = () => {
           >
             Akshay Chouke
           </a>{" "}
-          © {new Date().getFullYear()}
+          © {new Date().getFullYear()} | All Rights Reserved
         </div>
       </footer>
     </>
